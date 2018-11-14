@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		070D0564219C08FD008B48F5 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 070D0561219C08FD008B48F5 /* Tests.mm */; };
+		070D0565219C08FD008B48F5 /* Tests.mm in Sources */ = {isa = PBXBuildFile; fileRef = 070D0561219C08FD008B48F5 /* Tests.mm */; };
+		070D056D219C21CE008B48F5 /* Tests.h in Headers */ = {isa = PBXBuildFile; fileRef = 070D056C219C21CE008B48F5 /* Tests.h */; };
+		070D056E219C21CE008B48F5 /* Tests.h in Headers */ = {isa = PBXBuildFile; fileRef = 070D056C219C21CE008B48F5 /* Tests.h */; };
+		070D056F219C2201008B48F5 /* Tests.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 070D056C219C21CE008B48F5 /* Tests.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		070D0527219BFDA3008B48F5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				070D056F219C2201008B48F5 /* Tests.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		070D04F0219AB0A8008B48F5 /* libCustompod-Mac.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "libCustompod-Mac.dylib"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070D0520219BFC65008B48F5 /* libCustompod-Mac-Static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libCustompod-Mac-Static.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		070D0561219C08FD008B48F5 /* Tests.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = Tests.mm; sourceTree = "<group>"; };
+		070D056C219C21CE008B48F5 /* Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+		070D0575219C234F008B48F5 /* Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tests.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		070D04ED219AB0A8008B48F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070D051D219BFC65008B48F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		070D04E7219AB0A8008B48F5 = {
+			isa = PBXGroup;
+			children = (
+				070D0574219C232B008B48F5 /* CustompodSDK */,
+				070D056B219C219C008B48F5 /* Headers */,
+				070D04F7219AB0B5008B48F5 /* source */,
+				070D04F1219AB0A8008B48F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		070D04F1219AB0A8008B48F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				070D04F0219AB0A8008B48F5 /* libCustompod-Mac.dylib */,
+				070D0520219BFC65008B48F5 /* libCustompod-Mac-Static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		070D04F7219AB0B5008B48F5 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				070D0561219C08FD008B48F5 /* Tests.mm */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		070D056B219C219C008B48F5 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				070D056C219C21CE008B48F5 /* Tests.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		070D0574219C232B008B48F5 /* CustompodSDK */ = {
+			isa = PBXGroup;
+			children = (
+				070D0575219C234F008B48F5 /* Tests.h */,
+			);
+			path = CustompodSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		070D04EE219AB0A8008B48F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070D056D219C21CE008B48F5 /* Tests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070D051E219BFC65008B48F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070D056E219C21CE008B48F5 /* Tests.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		070D04EF219AB0A8008B48F5 /* Custompod-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070D04F4219AB0A8008B48F5 /* Build configuration list for PBXNativeTarget "Custompod-Mac" */;
+			buildPhases = (
+				070D04EC219AB0A8008B48F5 /* Sources */,
+				070D04ED219AB0A8008B48F5 /* Frameworks */,
+				070D04EE219AB0A8008B48F5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custompod-Mac";
+			productName = "Custompod-Mac";
+			productReference = 070D04F0219AB0A8008B48F5 /* libCustompod-Mac.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		070D051F219BFC65008B48F5 /* Custompod-Mac-Static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 070D0521219BFC65008B48F5 /* Build configuration list for PBXNativeTarget "Custompod-Mac-Static" */;
+			buildPhases = (
+				070D051C219BFC65008B48F5 /* Sources */,
+				070D051D219BFC65008B48F5 /* Frameworks */,
+				070D051E219BFC65008B48F5 /* Headers */,
+				070D0527219BFDA3008B48F5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custompod-Mac-Static";
+			productName = "Custompod-Mac-Static";
+			productReference = 070D0520219BFC65008B48F5 /* libCustompod-Mac-Static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		070D04E8219AB0A8008B48F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Santhosh Gandekattera";
+				TargetAttributes = {
+					070D04EF219AB0A8008B48F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					070D051F219BFC65008B48F5 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 070D04EB219AB0A8008B48F5 /* Build configuration list for PBXProject "Custompod-Mac" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 070D04E7219AB0A8008B48F5;
+			productRefGroup = 070D04F1219AB0A8008B48F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				070D04EF219AB0A8008B48F5 /* Custompod-Mac */,
+				070D051F219BFC65008B48F5 /* Custompod-Mac-Static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		070D04EC219AB0A8008B48F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070D0564219C08FD008B48F5 /* Tests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		070D051C219BFC65008B48F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				070D0565219C08FD008B48F5 /* Tests.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		070D04F2219AB0A8008B48F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		070D04F3219AB0A8008B48F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		070D04F5219AB0A8008B48F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		070D04F6219AB0A8008B48F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		070D0522219BFC65008B48F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		070D0523219BFC65008B48F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		070D04EB219AB0A8008B48F5 /* Build configuration list for PBXProject "Custompod-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070D04F2219AB0A8008B48F5 /* Debug */,
+				070D04F3219AB0A8008B48F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070D04F4219AB0A8008B48F5 /* Build configuration list for PBXNativeTarget "Custompod-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070D04F5219AB0A8008B48F5 /* Debug */,
+				070D04F6219AB0A8008B48F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		070D0521219BFC65008B48F5 /* Build configuration list for PBXNativeTarget "Custompod-Mac-Static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070D0522219BFC65008B48F5 /* Debug */,
+				070D0523219BFC65008B48F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 070D04E8219AB0A8008B48F5 /* Project object */;
+}
